@@ -11,11 +11,11 @@ import java.util.Random;
 
 class Kobral {
 
-    private static final int TIMES_TO_RUN = Integer.parseInt(JOptionPane.showInputDialog("Times to run:"));
-    private static final int SIZE = Integer.parseInt(JOptionPane.showInputDialog("Size of array:"));
-    private static final int EXTRA = Integer.parseInt(JOptionPane.showInputDialog("Extra values:"));
-    private static final int VALUE_TO_FIND = Integer.parseInt(JOptionPane.showInputDialog("Binary search value to find:"));
-    private static final String SORT_TYPE = JOptionPane.showInputDialog("sort type:");
+    private static final int TIMES_TO_RUN = 1; // Integer.parseInt(JOptionPane.showInputDialog("Times to run:"));
+    private static final int SIZE = 75; // Integer.parseInt(JOptionPane.showInputDialog("Size of array:"));
+    private static final int EXTRA = 25; // Integer.parseInt(JOptionPane.showInputDialog("Extra values:"));
+    private static final int VALUE_TO_FIND = 10; // Integer.parseInt(JOptionPane.showInputDialog("Binary search value to find:"));
+    private static final String SORT_TYPE =  "merge"; // JOptionPane.showInputDialog("sort type:");
 
     public static void main(String[] args) throws Exception {
         for (int x = 0; x < TIMES_TO_RUN; x++) {
