@@ -14,7 +14,7 @@ class Kobral {
     private static final int TIMES_TO_RUN = 1; // Integer.parseInt(JOptionPane.showInputDialog("Times to run:"));
     private static final int SIZE = 75; // Integer.parseInt(JOptionPane.showInputDialog("Size of array:"));
     private static final int EXTRA = 25; // Integer.parseInt(JOptionPane.showInputDialog("Extra values:"));
-    private static final int VALUE_TO_FIND = 10; // Integer.parseInt(JOptionPane.showInputDialog("Binary search value to find:"));
+    private static final int VALUE_TO_FIND = 20; // Integer.parseInt(JOptionPane.showInputDialog("Binary search value to find:"));
     private static final String SORT_TYPE =  "merge"; // JOptionPane.showInputDialog("sort type:");
 
     public static void main(String[] args) throws Exception {
